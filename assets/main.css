@@ -1,0 +1,205 @@
+body {
+    background-color: #333333;
+    padding-top: 3em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*------ FONTS-------- */
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+h2 {
+    font-family: 'Audiowide', cursive;
+    color: whitesmoke;
+}
+h4 {
+    font-family: 'Press Start 2P', cursive;
+}
+p {
+    font-family: 'Audiowide', cursive;
+    color: whitesmoke;
+}
+/*------ NAV -------*/
+ .navbar {
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+
+    max-height: 10em;
+    position: fixed;
+    z-index: 2;
+    margin-top: 1em;
+}
+.navi1{
+    width: 100%;
+    background: linear-gradient(to right, magenta, cyan);
+
+    max-height: 11em;
+    position: fixed;
+    padding: 25px;
+    padding-left: 1em;
+    margin-top: -2.5em;
+    margin-left: 1em;
+}
+
+.button1 {
+    background-color: rgba(0,0,0,0);
+    height: 2.2em;
+    width: 9em;
+    border: none;
+    color: whitesmoke;
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+  }
+.button1:hover {
+    background-color: #ffffff;
+    height: 2.2em;
+    width: 9em;
+    border: none;
+
+    background-color: rgb(133, 133, 133);
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+}
+  .sticky-top {
+    top: 0.5em;
+}
+/*--content--*/
+.main1 {
+    background: linear-gradient(to right, magenta, cyan);
+    border-radius: 0px 0px 0px 100px;
+    width: 100%;
+    height: 120px;
+    margin-left: 1em;
+    margin-top: -.5em;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    overflow: hidden;
+    padding-top: 1em;
+}
+.container1 {
+    display: grid;
+    margin: 0 auto;
+    margin-top: 3em;
+    width: 100%;
+    grid-template-areas:
+    "main1 main1 main1 main1"
+    "side1 main1 main1 main1"
+    "side1 main2 main2 main2"
+    "side1 main3 main3 main3"
+    "side1 main4 main4 main4"
+}
+main1 {
+    grid-area: main1;
+    margin-left: 10rem;
+    padding: 1rem;
+    width: 80vw;
+
+}
+main2 {
+    grid-area: main2;
+    margin-left: 10em;
+    width: 80vw;
+}
+main3 {
+  grid-area: main3;
+  margin-left: 10em;
+  width: 100vw;
+  float: left;
+}
+main4 {
+  grid-area: main3;
+  margin-left: 10em;
+  width: 100vw;
+  float: left;
+}
+
+side1 {
+    grid-area: side1;
+    background:linear-gradient(to right, magenta, cyan);
+    width: 10em;
+    min-height: 100em;
+    color: white;
+    text-shadow: 2px 2px #43578d;
+
+    
+}
+.sidebar {
+    background-color: rgba(0, 0, 0, 100);
+    width: 9em;
+    min-height: 100em;
+    color: white;
+    text-shadow: 2px 2px #43578d;
+
+    margin: .5em;
+}
+.button2 {
+    background-color: rgba(0,0,0,0);
+    height: 4em;
+    width: 9em;
+    border: none;
+    color: whitesmoke;
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+}
+  .button2:hover {
+    background-color: rgb(133, 133, 133);
+    height: 4em;
+    width: 9em;
+    border: none;
+
+    color: rgb(255, 255, 255);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    text-shadow: 2px 2px 1px black;
+
+}
+.grid1 {
+    margin-left: 2em;
+}
+.grid1 >h2 {
+    font-size: 1.25em;
+}
+/*----- GALLERY -----*/
+div.gallery {
+  background-color: #727272;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+  
+  div.gallery:hover {
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
